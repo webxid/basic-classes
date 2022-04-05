@@ -4,7 +4,7 @@ namespace WebXID\BasicClasses;
 
 use LogicException;
 
-class DataContainer
+class DataContainer implements CollectionItem
 {
     /** @var string[]  */
     protected static $callable_methods = [
