@@ -166,15 +166,15 @@ class DataContainer implements CollectionItem
      */
     public function toArray()
     {
-        $propertyes_list = get_object_vars($this);
+        $properties_list = get_object_vars($this);
 
-        unset($propertyes_list['_data']);
+        unset($properties_list['_data']);
 
-        $propertyes_list = $propertyes_list + $this->_data;
+        $properties_list = $properties_list + $this->_data;
 
         $result = [];
 
-        foreach ($propertyes_list as $name => $tmp) {
+        foreach ($properties_list as $name => $tmp) {
             $result[$name] = $this->$name;
         }
 

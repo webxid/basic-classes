@@ -1,6 +1,6 @@
 {
     "name": "webxid/basic-classes",
-    "description": "The lib contains abstruct classes and traits",
+    "description": "The lib contains abstract classes",
     "license": "MIT",
     "authors": [
         {
